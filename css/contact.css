@@ -1,0 +1,133 @@
+/*start variables*/
+:root {
+  --main-background: #ecfdff;
+  --main-btn-back: #ff3368;
+  --main-tran: 0.5s;
+  --black-color: black;
+  --border-radius-value: 10px;
+}
+/*end variables*/
+nav .drop-down li {
+  margin-bottom: 30px;
+}
+.banner {
+  background: url("..//img/breadcrumb.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  /* color: var(--main-btn-back); */
+}
+.banner a {
+  color: var(--main-btn-back);
+}
+
+@media (max-width: 992px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+}
+
+/* start contact  */
+.contact {
+  background: var(--main-background);
+  padding: 50px 0;
+}
+.contact .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media (max-width: 992px) {
+  .contact .container .cont-form {
+    max-width: 100%;
+  }
+}
+.contact .right {
+  text-align: center;
+  margin-top: 3rem;
+}
+.contact .right h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .contact .right h3 {
+    font-size: 1rem;
+  }
+}
+.contact .right .info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+.contact .right .info li,
+.contact .info a {
+  font-size: 1.1rem;
+  color: var(--black-color);
+  transition: var(--main-tran);
+  -webkit-transition: var(--main-tran);
+  -moz-transition: var(--main-tran);
+  -ms-transition: var(--main-tran);
+  -o-transition: var(--main-tran);
+}
+.contact .right .info i {
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+  color: var(--main-btn-back);
+}
+
+@media (max-width: 992px) {
+  .contact .right .info li,
+  .contact .info a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact .right .info i {
+    font-size: 1rem;
+  }
+}
+.contact .right .info a:hover {
+  color: var(--main-btn-back);
+}
+.contact .right .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.contact .right .social-icons i {
+  font-size: 1.3rem;
+  transition: var(--main-tran);
+  -webkit-transition: var(--main-tran);
+  -moz-transition: var(--main-tran);
+  -ms-transition: var(--main-tran);
+  -o-transition: var(--main-tran);
+  color: var(--black-color);
+  cursor: pointer;
+  transition: var(--main-tran);
+  -webkit-transition: var(--main-tran);
+  -moz-transition: var(--main-tran);
+  -ms-transition: var(--main-tran);
+  -o-transition: var(--main-tran);
+}
+.contact .right .social-icons i:hover {
+  color: var(--main-btn-back);
+}

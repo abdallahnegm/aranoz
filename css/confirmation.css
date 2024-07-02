@@ -1,0 +1,69 @@
+/*start variables*/
+:root {
+  --main-background: #ecfdff;
+  --main-btn-back: #ff3368;
+  --main-tran: 0.5s;
+  --black-color: black;
+  --border-radius-value: 10px;
+}
+/*end variables*/
+.confirmation {
+  padding: 5rem 0;
+}
+@media (max-width: 992px) {
+  .confirmation {
+    padding: 2rem 0;
+  }
+}
+.confirmation span.success {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: var(--main-btn-back);
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.confirmation .container {
+  display: flex;
+  gap: 2rem;
+}
+@media (max-width: 992px) {
+  .confirmation .container {
+    flex-direction: column;
+  }
+}
+.confirmation .container .left,
+.confirmation .container .right {
+  flex: 1;
+  background-color: var(--main-background);
+  border-radius: var(--border-radius-value);
+  padding: 1rem;
+  -webkit-border-radius: var(--border-radius-value);
+  -moz-border-radius: var(--border-radius-value);
+  -ms-border-radius: var(--border-radius-value);
+  -o-border-radius: var(--border-radius-value);
+}
+.confirmation .container .left .top,
+.bottom {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.confirmation .container .info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.confirmation .container .left .info span {
+  color: var(--black-color);
+}
+.confirmation .summary {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}

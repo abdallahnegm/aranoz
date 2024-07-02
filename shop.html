@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <!-- start header  -->
+    <header>
+      <div class="container">
+        <div class="bar" id="bar">
+          <i class="fa-solid fa-bars-staggered fa-2xl"></i>
+        </div>
+        <div class="logo">
+          <a href="index.html"> <img src="img/logo.png" alt="" /></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="parent">
+              <a href="">
+                shop <i class="fa-solid fa-caret-down"></i>
+                <ul class="drop-down">
+                  <li><a href="shop.html">shop category</a></li>
+                  <li><a href="single-product.html">product details</a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="parent">
+              <a href="">
+                Pages <i class="fa-solid fa-caret-down"></i>
+                <ul class="drop-down">
+                  <li><a href="login.html">login</a></li>
+                  <li><a href="tracking.html">tracking</a></li>
+                  <li><a href="cheackout.html">product checkout</a></li>
+                  <li><a href="cart.html">shopping cart</a></li>
+                  <li><a href="confirmation.html">confirmation</a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="parent">
+              <a href="">
+                Blog <i class="fa-solid fa-caret-down"></i>
+                <ul class="drop-down">
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="single-blog.html">single blog</a></li>
+                </ul>
+              </a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </header>
+    <nav class="mobile-menu">
+      <ul id="mobile">
+        <li><a href="index.html">Home</a></li>
+        <li class="parent">
+          shop <i class="fa-solid fa-caret-down"></i>
+          <ul class="drop-down">
+            <li><a href="shop.html">shop category</a></li>
+            <li><a href="single-product.html">product details</a></li>
+          </ul>
+        </li>
+        <li class="parent">
+          Pages <i class="fa-solid fa-caret-down"></i>
+          <ul class="drop-down">
+            <li><a href="login.html">login</a></li>
+            <li><a href="tracking.html">tracking</a></li>
+            <li><a href="cheackout.html">product checkout</a></li>
+            <li><a href="cart.html">shopping cart</a></li>
+            <li><a href="confirmation.html">confirmation</a></li>
+          </ul>
+        </li>
+        <li class="parent">
+          Blog <i class="fa-solid fa-caret-down"></i>
+          <ul class="drop-down">
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="single-blog.html">single blog</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- start header  -->
+    <!-- start hero  -->
+    <div class="banner">
+      <div class="container">
+        <h1>Shop</h1>
+        <span>
+          <a href="index.html">Home</a>
+          <i class="fa-solid fa-angle-right"></i> Shop
+        </span>
+      </div>
+    </div>
+    <!-- start hero  -->
+    <!-- start shop  -->
+    <div class="shop">
+      <div class="container">
+        <div class="left">
+          <div class="Categories">
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="#">All</a> (250)</li>
+              <li><a href="">Men</a> (100)</li>
+              <li><a href="">Women</a> (50)</li>
+              <li><a href="">Accessories</a> (10)</li>
+              <li><a href="">Shoes</a> (5)</li>
+              <li><a href="">Dress</a> (5)</li>
+            </ul>
+          </div>
+          <div class="brands">
+            <h3>brands</h3>
+            <ul>
+              <li><a href="">Apple</a></li>
+              <li><a href="">Asus</a></li>
+              <li><a href="">Lenovo</a></li>
+              <li><a href="">Dell</a></li>
+              <li><a href="">Lumina</a></li>
+              <li><a href="">HP</a></li>
+            </ul>
+          </div>
+          <div class="colors">
+            <h3>colors</h3>
+            <ul>
+              <li><a href="">red</a></li>
+              <li><a href="">black</a></li>
+              <li><a href="">green</a></li>
+              <li><a href="">white</a></li>
+              <li><a href="">blue</a></li>
+              <li><a href="">yellow</a></li>
+            </ul>
+          </div>
+          <div class="price-filter">
+            <h3>filter</h3>
+            <p>price <input type="range" min="0" max="100" value="20" /></p>
+            <p>Price : <span> $0.00</span> - <span>$100.00</span></p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="top">
+            <div class="num"><span>1000</span> Products Found</div>
+            <div class="show">
+              <span>Show</span>
+              <select>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+              </select>
+              <span>Products</span>
+            </div>
+            <div class="sort">
+              <span>Sort By</span>
+              <select>
+                <option value="Default">Default</option>
+                <option value="Price">Price</option>
+                <option value="product">product</option>
+                <option value="Name">Name</option>
+              </select>
+            </div>
+          </div>
+          <div class="products">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_1.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$121</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_2.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$348</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_3.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$999</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_4.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$799</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_5.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_6.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_7.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_5.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_5.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_5.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_1.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$121</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_2.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$348</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_3.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$999</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_4.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$799</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_5.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_8.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_7.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_6.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_5.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_4.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_1.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$121</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_2.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$348</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_3.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$999</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_4.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$799</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_5.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_8.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_7.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_6.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_5.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product__image">
+                    <img src="img/product/product_4.png" alt="" />
+                  </div>
+                  <div class="product__details">
+                    <p class="product__name">Quartz Belt Watch</p>
+                    <div class="product__cta">
+                      <p class="price">$39</p>
+                      <button>
+                        <i class="fa-solid fa-cart-plus"></i> Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end shop  -->
+    <!-- start best saller  -->
+    <div class="best-saller">
+        <div class="container">
+          <h1>Best Saller</h1>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="product__image">
+                  <img src="img/product/product_1.png" alt="" />
+                </div>
+                <div class="product__details">
+                  <p class="product__name">Quartz Belt Watch</p>
+                  <div class="product__cta">
+                    <p class="price">$121</p>
+                    <button>
+                      <i class="fa-solid fa-cart-plus"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product__image">
+                  <img src="img/product/product_2.png" alt="" />
+                </div>
+                <div class="product__details">
+                  <p class="product__name">Quartz Belt Watch</p>
+                  <div class="product__cta">
+                    <p class="price">$348</p>
+                    <button>
+                      <i class="fa-solid fa-cart-plus"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product__image">
+                  <img src="img/product/product_3.png" alt="" />
+                </div>
+                <div class="product__details">
+                  <p class="product__name">Quartz Belt Watch</p>
+                  <div class="product__cta">
+                    <p class="price">$999</p>
+                    <button>
+                      <i class="fa-solid fa-cart-plus"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product__image">
+                  <img src="img/product/product_4.png" alt="" />
+                </div>
+                <div class="product__details">
+                  <p class="product__name">Quartz Belt Watch</p>
+                  <div class="product__cta">
+                    <p class="price">$799</p>
+                    <button>
+                      <i class="fa-solid fa-cart-plus"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product__image">
+                  <img src="img/product/product_5.png" alt="" />
+                </div>
+                <div class="product__details">
+                  <p class="product__name">Quartz Belt Watch</p>
+                  <div class="product__cta">
+                    <p class="price">$39</p>
+                    <button>
+                      <i class="fa-solid fa-cart-plus"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product__image">
+                  <img src="img/product/product_6.png" alt="" />
+                </div>
+                <div class="product__details">
+                  <p class="product__name">Quartz Belt Watch</p>
+                  <div class="product__cta">
+                    <p class="price">$39</p>
+                    <button>
+                      <i class="fa-solid fa-cart-plus"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product__image">
+                  <img src="img/product/product_7.png" alt="" />
+                </div>
+                <div class="product__details">
+                  <p class="product__name">Quartz Belt Watch</p>
+                  <div class="product__cta">
+                    <p class="price">$39</p>
+                    <button>
+                      <i class="fa-solid fa-cart-plus"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product__image">
+                  <img src="img/product/product_5.png" alt="" />
+                </div>
+                <div class="product__details">
+                  <p class="product__name">Quartz Belt Watch</p>
+                  <div class="product__cta">
+                    <p class="price">$39</p>
+                    <button>
+                      <i class="fa-solid fa-cart-plus"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product__image">
+                  <img src="img/product/product_5.png" alt="" />
+                </div>
+                <div class="product__details">
+                  <p class="product__name">Quartz Belt Watch</p>
+                  <div class="product__cta">
+                    <p class="price">$39</p>
+                    <button>
+                      <i class="fa-solid fa-cart-plus"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product__image">
+                  <img src="img/product/product_5.png" alt="" />
+                </div>
+                <div class="product__details">
+                  <p class="product__name">Quartz Belt Watch</p>
+                  <div class="product__cta">
+                    <p class="price">$39</p>
+                    <button>
+                      <i class="fa-solid fa-cart-plus"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end best saller  -->
+<!-- start footer  -->
+<footer>
+  <div class="container">
+    <div class="left">
+      <h4>Important Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="parent">
+          <a href="shop.html"> shop </a>
+        </li>
+        <li class="parent">
+          <a href="cheackout.html"> Cheackout </a>
+        </li>
+        <li class="parent">
+          <a href="blog.html"> Blog </a>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="middle">
+      <h2>
+        This template is made with <i class="fa-regular fa-heart"></i> by
+        <a href="https://abdallahnegm.github.io/porto/" target="_blank"
+          >Abdallah Negm</a
+        >
+      </h2>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=100006969912368"
+          ><i class="fa-brands fa-facebook fa-xl"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/abdallah-negm-3b1251175/"
+          ><i class="fa-brands fa-linkedin fa-xl"></i
+        ></a>
+        <a href="https://github.com/abdallahnegm/"
+          ><i class="fa-brands fa-github fa-xl"></i
+        ></a>
+        <a href="https://abdallahnegm.github.io/porto/"
+          ><i class="fa-solid fa-globe fa-1xl"></i
+        ></a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="img">
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer  -->
+    <script
+      src="https://kit.fontawesome.com/f599573a7f.js"
+      crossorigin="anonymous"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

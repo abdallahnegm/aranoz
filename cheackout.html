@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/cheackout.css" />
+    <title>cheackout</title>
+  </head>
+  <body>
+      <!-- start header  -->
+      <header>
+        <div class="container">
+          <div class="bar" id="bar">
+            <i class="fa-solid fa-bars-staggered fa-2xl"></i>
+          </div>
+          <div class="logo">
+            <a href="index.html"> <img src="img/logo.png" alt="" /></a>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="parent">
+                <a href="">
+                  shop <i class="fa-solid fa-caret-down"></i>
+                  <ul class="drop-down">
+                    <li><a href="shop.html">shop category</a></li>
+                    <li><a href="single-product.html">product details</a></li>
+                  </ul>
+                </a>
+              </li>
+              <li class="parent">
+                <a href="">
+                  Pages <i class="fa-solid fa-caret-down"></i>
+                  <ul class="drop-down">
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="tracking.html">tracking</a></li>
+                    <li><a href="cheackout.html">product checkout</a></li>
+                    <li><a href="cart.html">shopping cart</a></li>
+                    <li><a href="confirmation.html">confirmation</a></li>
+                  </ul>
+                </a>
+              </li>
+              <li class="parent">
+                <a href="">
+                  Blog <i class="fa-solid fa-caret-down"></i>
+                  <ul class="drop-down">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="single-blog.html">single blog</a></li>
+                  </ul>
+                </a>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </header>
+      <nav class="mobile-menu">
+        <ul id="mobile">
+          <li><a href="index.html">Home</a></li>
+          <li class="parent">
+            shop <i class="fa-solid fa-caret-down"></i>
+            <ul class="drop-down">
+              <li><a href="shop.html">shop category</a></li>
+              <li><a href="single-product.html">product details</a></li>
+            </ul>
+          </li>
+          <li class="parent">
+            Pages <i class="fa-solid fa-caret-down"></i>
+            <ul class="drop-down">
+              <li><a href="login.html">login</a></li>
+              <li><a href="tracking.html">tracking</a></li>
+              <li><a href="cheackout.html">product checkout</a></li>
+              <li><a href="cart.html">shopping cart</a></li>
+              <li><a href="confirmation.html">confirmation</a></li>
+            </ul>
+          </li>
+          <li class="parent">
+            Blog <i class="fa-solid fa-caret-down"></i>
+            <ul class="drop-down">
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="single-blog.html">single blog</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- start header  -->
+    <div class="banner">
+      <div class="container">
+        <h1>Product Checkout</h1>
+        <span>
+          <a href="index.html">Home</a>
+          <i class="fa-solid fa-angle-right"></i> Product Checkout
+        </span>
+      </div>
+    </div>
+    <!-- start hero  -->
+    <div class="cheackout">
+      <div class="container">
+        <div class="login">
+          <p>
+            Returning Customer? <a href="login.html"> Click here to login</a>
+          </p>
+          <span
+            >If you have shopped with us before, please enter your details in
+            the boxes below. If you are a new customer, please proceed to the
+            Billing & Shipping section.
+          </span>
+          <form action="">
+            <input type="text" placeholder="Username" />
+            <input type="password" placeholder="Password" />
+            <div class="rem">
+              <input type="checkbox" id="rem"/>
+              <label for="rem">Remember Me</label>
+            </div>
+            <button>Login</button>
+            <a href="">Forgot Password?</a>
+          </form>
+        </div>
+        <div class="coupon">
+            <p>Have a coupon?</p>
+            <input type="text" name="" id="" placeholder="Coupon Code">
+            <button>Apply Coupon</button>
+        </div>
+        <div class="shipping">
+            <div class="left">
+            <h2>Billing  Detalis</h2>
+            <form action="">
+                <div class="name">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <input type="text" placeholder="Company Name">
+                <div class="contact-info">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Phone">
+                </div>
+                <select name="" id="">
+                    <option value="">Country</option>
+                    <option value="">Egypt</option>
+                    <option value="">Saudi Arabia</option>
+                    <option value="">UAE</option>
+                </select>
+                <input type="text" name="" id="" placeholder="Address 1">
+                <input type="text" name="" id="" placeholder="Address 2">
+                <select name="" id="">
+                    <option value="">State</option>
+                    <option value="">Egypt</option>
+                    <option value="">Saudi Arabia</option>
+                    <option value="">UAE</option>
+                </select>
+                <select name="" id="">
+                    <option value="">City</option>
+                    <option value="">Egypt</option>
+                    <option value="">Saudi Arabia</option>
+                    <option value="">UAE</option>
+                </select>
+                <input type="text" name="" id="" placeholder="Zip Code">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Order Notes" id=""></textarea>
+            </div>
+            <div class="right">
+                <h2>Your Order</h2>
+                <div class="items">
+                    <div class="item">
+                        <p>Product Name</p>
+                        <p>Quantity</p>
+                        <p>Subtotal</p>
+                    </div>
+                    <div class="item">
+                        <p>Fresh Blackberry</p>
+                        <p> *2 </p>
+                        <p>$720.00</p>
+                    </div>
+                    <div class="item">
+                        <p>Fresh Blackberry</p>
+                        <p> *2 </p>
+                        <p>$720.00</p>
+                    </div>
+                    <div class="item">
+                        <p>Fresh Blackberry</p>
+                        <p> *2 </p>
+                        <p>$720.00</p>
+                    </div>
+                    <div class="item">
+                        <p>Fresh Blackberry</p>
+                        <p> *2 </p>
+                        <p>$720.00</p>
+                    </div>
+                    <div class="item">
+                        <h4>Subtotal</h4>
+                        <h4>$720.00</h4>
+                    </div>
+                    <div class="item">
+                        <p>Shipping</p>
+                        <p>$10.00</p>
+                    </div>
+                    <div class="item">
+                        <h4>Total</h4>
+                        <h4>$2210.00</h4>
+                </div>
+            </div>    
+            <div class="payments">
+                <h2>Payment Method</h2>
+                <div class="payment">
+                    <input type="radio" name="payment" id="cash">
+                    <label for="cash">Cash on delivery</label>
+                </div>
+                <div class="payment">
+                    <input type="radio" name="payment" id="visa">
+                    <label for="visa">Visa</label>
+                </div>
+                <div class="payment">
+                    <input type="radio" name="payment" id="paypal">
+                    <label for="paypal">Paypal</label>
+                </div>
+                <div class="payment">
+                    <input type="radio" name="payment" id="bank">
+                    <label for="bank">Bank transfer</label>
+                </div>
+                <button>Place Order</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+<!-- start footer  -->
+<footer>
+  <div class="container">
+    <div class="left">
+      <h4>Important Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="parent">
+          <a href="shop.html"> shop </a>
+        </li>
+        <li class="parent">
+          <a href="cheackout.html"> Cheackout </a>
+        </li>
+        <li class="parent">
+          <a href="blog.html"> Blog </a>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="middle">
+      <h2>
+        This template is made with <i class="fa-regular fa-heart"></i> by
+        <a href="https://abdallahnegm.github.io/porto/" target="_blank"
+          >Abdallah Negm</a
+        >
+      </h2>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=100006969912368"
+          ><i class="fa-brands fa-facebook fa-xl"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/abdallah-negm-3b1251175/"
+          ><i class="fa-brands fa-linkedin fa-xl"></i
+        ></a>
+        <a href="https://github.com/abdallahnegm/"
+          ><i class="fa-brands fa-github fa-xl"></i
+        ></a>
+        <a href="https://abdallahnegm.github.io/porto/"
+          ><i class="fa-solid fa-globe fa-1xl"></i
+        ></a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="img">
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer  -->
+    <script
+      src="https://kit.fontawesome.com/f599573a7f.js"
+      crossorigin="anonymous"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

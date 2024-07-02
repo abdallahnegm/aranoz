@@ -1,0 +1,61 @@
+/*start variables*/
+:root {
+  --main-background: #ecfdff;
+  --main-btn-back: #ff3368;
+  --main-tran: 0.5s;
+  --black-color: black;
+  --border-radius-value: 10px;
+}
+/*end variables*/
+.tracking {
+  padding: 5rem 0;
+}
+@media (max-width: 992px) {
+  .tracking {
+    padding: 2rem 0;
+  }
+}
+.tracking .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.tracking .container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.tracking .container form input {
+  padding: 1rem;
+  border-radius: var(--border-radius-value);
+  border: none;
+  outline: none;
+  box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
+  width: 500px;
+}
+.tracking .container form button {
+  padding: 1rem;
+  border-radius: var(--border-radius-value);
+  border: none;
+  width: 500px;
+  outline: none;
+  box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
+  -webkit-border-radius: var(--border-radius-value);
+  -moz-border-radius: var(--border-radius-value);
+  -ms-border-radius: var(--border-radius-value);
+  -o-border-radius: var(--border-radius-value);
+  -webkit-box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
+  -moz-box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
+  -ms-box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
+  -o-box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
+  border: 1px solid var(--main-btn-back);
+}
+
+@media (max-width: 992px) {
+  .tracking .container form input,
+  .tracking .container form button {
+    width: 100%;
+  }
+}
+/* end tracking  */

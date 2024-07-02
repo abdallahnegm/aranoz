@@ -1,0 +1,222 @@
+/*start variables*/
+:root {
+  --main-background: #ecfdff;
+  --main-btn-back: #ff3368;
+  --main-tran: 0.5s;
+  --black-color: black;
+  --border-radius-value: 10px;
+}
+/*end variables*/
+.cheackout {
+  padding: 5rem 0;
+}
+@media (max-width: 992px) {
+  .cheackout {
+    padding: 2rem 0;
+  }
+}
+.cheackout .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.cheackout .login {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.cheackout .login p {
+  background-color: var(--main-background);
+  padding: 1rem;
+  border-radius: var(--border-radius-value);
+  border: none;
+}
+.cheackout .login a {
+  color: var(--main-btn-back);
+  text-decoration: underline;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+.cheackout .login span {
+  color: var(--black-color);
+}
+.cheackout .login form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+@media (max-width: 992px) {
+  .cheackout .login form {
+    flex-direction: column;
+  }
+}
+.cheackout .login form input:not([type="checkbox"]) {
+  padding: 1rem;
+  border-radius: var(--border-radius-value);
+  border: 1px solid #eee;
+  outline: none;
+  -webkit-border-radius: var(--border-radius-value);
+  -moz-border-radius: var(--border-radius-value);
+  -ms-border-radius: var(--border-radius-value);
+  -o-border-radius: var(--border-radius-value);
+  width: 50%;
+  transition: var(--main-tran);
+  -webkit-transition: var(--main-tran);
+  -moz-transition: var(--main-tran);
+  -ms-transition: var(--main-tran);
+  -o-transition: var(--main-tran);
+}
+.cheackout .login form input:not([type="checkbox"]):focus {
+  border: 1px solid var(--main-btn-back);
+}
+.cheackout .login .rem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin: 1rem;
+  justify-content: flex-start;
+}
+.cheackout .login button {
+  width: 50%;
+  font-size: 1.12rem;
+}
+.cheackout .login a {
+  color: var(--main-btn-back);
+  text-decoration: underline;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+.cheackout .coupon {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.cheackout .coupon p {
+  background-color: var(--main-background);
+  padding: 1rem;
+  border-radius: var(--border-radius-value);
+  border: none;
+}
+.cheackout .coupon input {
+  padding: 1rem;
+  border-radius: var(--border-radius-value);
+  border: 1px solid #eee;
+  outline: none;
+  -webkit-border-radius: var(--border-radius-value);
+  -moz-border-radius: var(--border-radius-value);
+  -ms-border-radius: var(--border-radius-value);
+  width: 50%;
+  transition: var(--main-tran);
+  -webkit-transition: var(--main-tran);
+  -moz-transition: var(--main-tran);
+  -ms-transition: var(--main-tran);
+  -o-transition: var(--main-tran);
+}
+.cheackout .coupon input:focus {
+  border: 1px solid var(--main-btn-back);
+}
+.cheackout .coupon button {
+  width: 50%;
+  font-size: 1.12rem;
+}
+.cheackout .shipping {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+@media (max-width: 992px) {
+  .cheackout .shipping {
+    flex-direction: column;
+  }
+}
+.cheackout .shipping .left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cheackout .shipping form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cheackout .shipping form input,
+.cheackout .shipping form textarea,
+.cheackout .shipping form select {
+  padding: 1rem;
+  border-radius: var(--border-radius-value);
+  border: 1px solid #eee;
+  outline: none;
+  -webkit-border-radius: var(--border-radius-value);
+  -moz-border-radius: var(--border-radius-value);
+  -ms-border-radius: var(--border-radius-value);
+  transition: var(--main-tran);
+  -webkit-transition: var(--main-tran);
+  -moz-transition: var(--main-tran);
+  -ms-transition: var(--main-tran);
+  -o-transition: var(--main-tran);
+  resize: none;
+}
+.cheackout .shipping form input:focus,
+.cheackout .shipping form textarea:focus,
+.cheackout .shipping form select:focus {
+  border: 1px solid var(--main-btn-back);
+}
+.cheackout .shipping .name,
+.cheackout .shipping .contact-info {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+.cheackout .shipping .name input,
+.cheackout .shipping .contact-info input {
+  width: 50%;
+}
+.cheackout .shipping .right {
+  width: 30%;
+  background-color: var(--main-background);
+  padding: 2rem;
+  border-radius: var(--border-radius-value);
+  -webkit-border-radius: var(--border-radius-value);
+  -moz-border-radius: var(--border-radius-value);
+  -ms-border-radius: var(--border-radius-value);
+  -o-border-radius: var(--border-radius-value);
+}
+@media (max-width: 992px) {
+  .cheackout .shipping .left,
+  .cheackout .shipping .right {
+    width: 100%;
+  }
+}
+.cheackout .shipping .right h2 {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem;
+}
+.cheackout .shipping .right .items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.cheackout .shipping .right .items .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.cheackout .shipping .payments {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.cheackout .shipping .payments .payment label {
+  margin-left: 0.5rem;
+}
+.cheackout .shipping .payments button {
+  width: 100%;
+  font-size: 1.12rem;
+}
